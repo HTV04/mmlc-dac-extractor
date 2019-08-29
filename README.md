@@ -7,7 +7,7 @@ Based on anpage's script: https://gist.github.com/anpage/b895a34efb0bf1e4a9a4f52
 - Place "mmlc_mm_extractor.py" in the same direcotry as the MMLC executable (Proteus.exe).
   - **IMPORTANT:** Make sure that the Proteus.exe version is "v1.1.1.29" (you can check this in the file's properties).
   - For good measure, verify the integrity of your MMLC installation via Steam.
-- Run the script. ROMs named Mega Man followed by their respective numbers (except for the first Mega Man, which won't be followed by a number) will appear in the same directory, followed by an .nes extension.
+- Run the script. ROMs named Mega Man followed by their respective numbers (except for the first Mega Man, which won't be followed by a number) will appear in the same directory, followed by a .nes extension.
 - These ROMs can be played in NES emulators.
 
 ## Q&A
