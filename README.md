@@ -2,6 +2,8 @@
 Extracts Mega Man 1-6 ROMs from Mega Man Legacy Collection (MMLC) (Windows only).
 Based on anpage's script: https://gist.github.com/anpage/b895a34efb0bf1e4a9a4f52228067fa8
 
+I made a modified version of their script because it was outdated.
+
 ## How to use
 - Make sure the latest version of Python 3 is installed at https://python.org.
 - Place "mmlc_mm_extractor.py" in the same direcotry as the MMLC executable (Proteus.exe).
