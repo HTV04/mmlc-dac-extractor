@@ -26,6 +26,6 @@ Post an issue describing the problem and I'll try to fix it. **Please elaborate.
 ### Help! An update released for MMLC and the script doesn't output valid ROMs anymore!
 This is probably due to the offsets for the ROMs shifting. No worries, just post an issue and I'll try to fix it. I'll also add the first and last hex rows for each game later, in case you would like to try and find them.
 
-## To-Do
+## To-do
 - Add another script for Rockman ROMs (too lazy right now).
 - Add patches for other Mega Man and Rockman ROMs.
