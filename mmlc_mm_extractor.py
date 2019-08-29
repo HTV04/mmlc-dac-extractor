@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-# Program for extracting the NES roms of each Mega Man game in the Mega Man Legacy Collection for PC
+# Program for extracting the NES roms of each Mega Man game in the Mega Man Legacy Collection (Windows only)
 # Original by anpage
 # Modified by HTV04
 
