@@ -1,5 +1,6 @@
 # MMLC-ROM-Extractor
 Extracts Mega Man 1-6 ROMs from Mega Man Legacy Collection (MMLC) (Windows only).
+
 Based on anpage's script: https://gist.github.com/anpage/b895a34efb0bf1e4a9a4f52228067fa8
 
 I made a modified version of their script because it was outdated.
@@ -20,7 +21,7 @@ Not at all! The MMLC executable will be completely unaffected after the script i
 Other than all references to Nintendo being removed, the ROMs are identical.
 
 ### Are the ROMs compatible with ROM hacks?
-Unfortunately, due to the changes I mentioned before, the ROMs won't work correctly with ROM hacks. However, I included an .ips patch for Mega Man 2 that makes it identical to the original game (with Nintendo references), which in turn makes the game compatible with ROM hacks for it. I plan to add more patches for the other Mega Man games later.
+Unfortunately, due to the changes I mentioned before, the ROMs won't work correctly with ROM hacks. However, I included an .ips patch for Mega Man 2 that makes it identical to the original game (with Nintendo references), which in turn makes the game compatible with ROM hacks for it. I plan to add more patches for the other Mega Man games later. You can apply the .ips using Lunar IPS https://fusoya.eludevisibility.org/lips/.
 
 ### There's a bug with the script.
 Post an issue describing the problem and I'll try to fix it. **Please elaborate.**
