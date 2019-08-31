@@ -1,8 +1,9 @@
 #!/usr/bin/env python
 
-# Program for extracting the NES roms of each Mega Man game in the Mega Man Legacy Collection (Windows only)
-# Original by anpage
-# Modified by HTV04
+# Mega Man Legacy Collection (Windows) NES ROM Extractor v1.2
+# By HTV04
+
+# Based on anpage's script: https://gist.github.com/anpage/b895a34efb0bf1e4a9a4f52228067fa8
 
 # iNES Headers for Mega Man 1-6
 HEADERS = [b'\x4E\x45\x53\x1A\x08\x00\x21\x00\x00\x00\x00\x00\x00\x00\x00\x00',
@@ -37,9 +38,9 @@ if __name__ == '__main__':
                 end = start + size
                 game += exe[start:end]
         if i == 0:
-          out = open("Mega Man.nes", "wb")
+            out = open("Mega Man.nes", "wb")
         else:  
-          out = open("Mega Man " + str(i+1) + ".nes", "wb")
+            out = open("Mega Man " + str(i+1) + ".nes", "wb")
         try:
             out.write(game)
         finally:
