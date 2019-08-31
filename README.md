@@ -45,5 +45,4 @@ This is probably due to the offsets for the ROMs shifting. No worries, just post
 - Enjoy!
 
 ## To-do
-- Add another script for Rockman ROMs (too lazy right now).
-- Add patches for other Mega Man and Rockman ROMs.
+- Add another script and patches for Rockman ROMs.
