@@ -33,7 +33,9 @@ This is probably due to the offsets for the ROMs shifting. No worries, just post
 
 ### ***Bonus:*** What's "data.pie?"
 "data.pie" is an encrypted zip folder containing several assets for the MMLC. If you would like to access it (for example, if you want to use the box art), follow these steps:
+
 **(NOTE: The following steps are intended to be done on Windows (10). I cannot guarantee the steps will the same for other operating systems.)**
+
 - Download the latest version of 7-Zip here (the built-in extractor for Windows doesn't support passwords): https://www.7-zip.org/
 - After installing 7-Zip, **copy the "data.pie" file in the MMLC directory to a different location**.
 - Rename the **copied file** to "data.zip." Make sure you have file extensions enabled.
