@@ -14,7 +14,7 @@ From here on, the Mega Man Legacy Collection will be referred to as the MMLC for
   - **IMPORTANT:** Make sure that the Proteus.exe version is "v1.1.1.29" (you can check this in the file's properties).
   - For good measure, verify the integrity of your MMLC installation via Steam.
 - Run the script. ROMs named Mega Man followed by their respective numbers (except for the first Mega Man, which won't be followed by a number) will appear in the same directory, followed by an .nes extension.
-  - If using the Rockman extractor script, ROMs named Rockman followed by their respective numbers and subtitles (execpt for the first Rockman, which won't be followed by a number or subtitle) will appear in the same directory, followed by an .nes extension.
+  - If using the Rockman extractor script, ROMs named Rockman followed by their respective numbers and subtitles (execpt for the first Rockman, which won't be followed by a number nor a subtitle) will appear in the same directory, followed by an .nes extension.
 - These ROMs can be played in NES emulators.
 
 ## Q&A
@@ -29,7 +29,7 @@ Unfortunately, due to the changes I mentioned before, the Mega Man ROMs won't wo
 
 As for the Rockman ROMs, they are completely identical to the orignal games and don't need any patching whatsoever.
 
-### There's a bug with the script.
+### There's a bug with the scripts/patches.
 Post an issue describing the problem and I'll try to fix it. **Please elaborate.**
 
 ### Help! An update released for MMLC and the script doesn't output valid ROMs anymore!
