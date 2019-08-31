@@ -9,7 +9,7 @@ From here on, the Mega Man Legacy Collection will be referred to as the MMLC for
 
 ## How to use
 - Make sure the latest version of Python 3 is installed at https://python.org.
-- Place "mmlc_mm_extractor.py" in the same direcotry as the MMLC executable (Proteus.exe).
+- Place "mmlc_mm_extractor.py" in the same directory as the MMLC executable (Proteus.exe).
   - **IMPORTANT:** Make sure that the Proteus.exe version is "v1.1.1.29" (you can check this in the file's properties).
   - For good measure, verify the integrity of your MMLC installation via Steam.
 - Run the script. ROMs named Mega Man followed by their respective numbers (except for the first Mega Man, which won't be followed by a number) will appear in the same directory, followed by an .nes extension.
@@ -30,6 +30,17 @@ Post an issue describing the problem and I'll try to fix it. **Please elaborate.
 
 ### Help! An update released for MMLC and the script doesn't output valid ROMs anymore!
 This is probably due to the offsets for the ROMs shifting. No worries, just post an issue and I'll try to fix it. I'll also add the first and last hex rows for each game later, in case you would like to try and find them.
+
+### **Bonus:** What's data.pie?
+Data.pie is an encrypted zip folder containing many assets for the MMLC. If you would like to access it (for example, if you want to use the box art), follow these steps:
+**(NOTE: The following steps are intended to be done on Windows (10). I cannot guarantee the steps will the same for other operating systems.)**
+- Download the latest version of 7-Zip here (the built-in extractor for Windows doesn't support passwords): https://www.7-zip.org/
+- After installing 7-Zip, **copy the data.pie file in the MMLC directory to a different location**.
+- Rename the **copied file** to data.zip. Make sure you have file extensions enabled.
+- Right-click on the zip file, and click on "7-Zip > Extract files..."
+- Click "OK."
+- When prompted, enter this password (**without quotes and period**): "P091uWEdwe4lI6StDNMNlkodPGvJ38bL3HW6t3BCMYdFi83FXKu7k0NsHP8caDKS."
+- Enjoy!
 
 ## To-do
 - Add another script for Rockman ROMs (too lazy right now).
