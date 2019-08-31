@@ -1,5 +1,6 @@
 # MMLC-NES-ROM-Extractor (v1.2)
 Extracts Mega Man 1-6 NES ROMs from the Mega Man Legacy Collection (Windows).
+- Rockman 1-6 ROMs can also be extracted.
 
 Based on anpage's script: https://gist.github.com/anpage/b895a34efb0bf1e4a9a4f52228067fa8
 
@@ -9,10 +10,11 @@ From here on, the Mega Man Legacy Collection will be referred to as the MMLC for
 
 ## How to use
 - Make sure the latest version of Python 3 is installed at https://python.org.
-- Place "mmlc_mm_extractor.py" in the same directory as the MMLC executable (Proteus.exe).
+- Place "mmlc_mm_extractor.py" (or "mmlc_rm_extractor.py" if extracting Rockman ROMs) in the same directory as the MMLC executable (Proteus.exe).
   - **IMPORTANT:** Make sure that the Proteus.exe version is "v1.1.1.29" (you can check this in the file's properties).
   - For good measure, verify the integrity of your MMLC installation via Steam.
 - Run the script. ROMs named Mega Man followed by their respective numbers (except for the first Mega Man, which won't be followed by a number) will appear in the same directory, followed by an .nes extension.
+  - If using the Rockman extractor script, ROMs named Rockman followed by their respective numbers and subtitles (execpt for the first Rockman, which won't be followed by a number or subtitle) will appear in the same directory, followed by an .nes extension.
 - These ROMs can be played in NES emulators.
 
 ## Q&A
@@ -20,10 +22,12 @@ From here on, the Mega Man Legacy Collection will be referred to as the MMLC for
 Not at all! The MMLC executable will be completely unaffected after the script is run.
 
 ### Are the ROMs identical to the original games?
-Other than all references to Nintendo being removed, the ROMs are identical.
+In the Mega Man ROMs' case, other than all references to Nintendo being removed, the ROMs are identical. As for the Rockman ROMs, they are completely identical to the original games.
 
 ### Are the ROMs compatible with ROM hacks?
-Unfortunately, due to the changes I mentioned before, the ROMs won't work correctly with ROM hacks. However, I included .ips patches that make the ROMs identical to the original game (with Nintendo references), which in turn makes the game compatible with ROM hacks for it. I plan to add more patches for the other Mega Man games later. I would recommend making backup copies of the extracted ROMs before patching them, as there may be other changes to the ROMs that I am unaware of. You can apply the .ips using Lunar IPS https://fusoya.eludevisibility.org/lips/ (**beware the applying the patches directly without making backups will overwrite the original ROMs!**).
+Unfortunately, due to the changes I mentioned before, the Mega Man ROMs won't work correctly with ROM hacks. However, I included .ips patches that make the ROMs identical to the original game (with Nintendo references), which in turn makes the game compatible with ROM hacks for it. I would recommend making backup copies of the extracted ROMs before patching them, as there may be other changes to the ROMs that I am unaware of. You can apply the .ips using Lunar IPS https://fusoya.eludevisibility.org/lips/ (**beware the applying the patches directly without making backups will overwrite the original ROMs!**).
+
+As for the Rockman ROMs, they are completely identical to the orignal games and don't need any patching whatsoever.
 
 ### There's a bug with the script.
 Post an issue describing the problem and I'll try to fix it. **Please elaborate.**
@@ -43,6 +47,3 @@ This is probably due to the offsets for the ROMs shifting. No worries, just post
 - Click "OK."
 - When prompted, enter this password (**without quotes and period**): "P091uWEdwe4lI6StDNMNlkodPGvJ38bL3HW6t3BCMYdFi83FXKu7k0NsHP8caDKS."
 - Enjoy!
-
-## To-do
-- Add another script and patches for Rockman ROMs.
