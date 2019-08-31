@@ -23,7 +23,7 @@ Not at all! The MMLC executable will be completely unaffected after the script i
 Other than all references to Nintendo being removed, the ROMs are identical.
 
 ### Are the ROMs compatible with ROM hacks?
-Unfortunately, due to the changes I mentioned before, the ROMs won't work correctly with ROM hacks. However, I included an .ips patch for Mega Man 2 that makes it identical to the original game (with Nintendo references), which in turn makes the game compatible with ROM hacks for it. I plan to add more patches for the other Mega Man games later. You can apply the .ips using Lunar IPS https://fusoya.eludevisibility.org/lips/.
+Unfortunately, due to the changes I mentioned before, the ROMs won't work correctly with ROM hacks. However, I included .ips patches that make the ROMs identical to the original game (with Nintendo references), which in turn makes the game compatible with ROM hacks for it. I plan to add more patches for the other Mega Man games later. I would recommend making backup copies of the extracted ROMs before patching them, as there may be other changes to the ROMs that I am unaware of. You can apply the .ips using Lunar IPS https://fusoya.eludevisibility.org/lips/ (**beware the applying the patches directly without making backups will overwrite the original ROMs!**).
 
 ### There's a bug with the script.
 Post an issue describing the problem and I'll try to fix it. **Please elaborate.**
