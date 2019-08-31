@@ -1,9 +1,11 @@
 # MMLC-ROM-Extractor (v1.2)
-Extracts Mega Man 1-6 ROMs from Mega Man Legacy Collection (MMLC) (Windows only).
+Extracts Mega Man 1-6 ROMs from the Mega Man Legacy Collection (Windows).
 
 Based on anpage's script: https://gist.github.com/anpage/b895a34efb0bf1e4a9a4f52228067fa8
 
 I made a modified version of their script because it was outdated.
+
+From here on, the Mega Man Legacy Collection will be referred to as the MMLC.
 
 ## How to use
 - Make sure the latest version of Python 3 is installed at https://python.org.
