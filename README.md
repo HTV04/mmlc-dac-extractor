@@ -5,7 +5,7 @@ Based on anpage's script: https://gist.github.com/anpage/b895a34efb0bf1e4a9a4f52
 
 I made a modified version of their script because it was outdated.
 
-From here on, the Mega Man Legacy Collection will be referred to as the MMLC.
+From here on, the Mega Man Legacy Collection will be referred to as the MMLC for simplicity.
 
 ## How to use
 - Make sure the latest version of Python 3 is installed at https://python.org.
