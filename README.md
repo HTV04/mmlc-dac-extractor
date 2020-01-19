@@ -25,9 +25,9 @@ Not at all! The MMLC executable will be completely unaffected after the script i
 In the Mega Man ROMs' case, other than all references to Nintendo being removed, the ROMs are identical. As for the Rockman ROMs, they are completely identical to the original games.
 
 ### Are the ROMs compatible with ROM hacks?
-Unfortunately, due to the changes I mentioned before, the Mega Man ROMs won't work correctly with ROM hacks. However, I included .ips patches that make the ROMs identical to the original game (with Nintendo references), which in turn makes the game compatible with ROM hacks for it. I would recommend making backup copies of the extracted ROMs before patching them, as there may be other changes to the ROMs that I am unaware of. You can apply the .ips using Lunar IPS https://fusoya.eludevisibility.org/lips/ (**beware the applying the patches directly without making backups will overwrite the original ROMs!**).
+Unfortunately, due to the changes I mentioned before, the Mega Man ROMs won't work correctly with ROM hacks. However, I included .ips patches that make the ROMs identical to the original games (with Nintendo references), which in turn makes the games compatible with ROM hacks for them. I would recommend making backup copies of the extracted ROMs before patching them, as there may be other changes to the ROMs that I am unaware of. You can apply the .ips using Lunar IPS https://fusoya.eludevisibility.org/lips/ (**beware the applying the patches directly without making backups will overwrite the original ROMs!**).
 
-As for the Rockman ROMs, they are completely identical to the orignal games and don't need any patching whatsoever.
+As for the Rockman ROMs, they are completely identical to the original games and don't need any patching whatsoever.
 
 ### There's a bug with the scripts/patches.
 Post an issue describing the problem and I'll try to fix it. **Please elaborate.**
