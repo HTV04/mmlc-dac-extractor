@@ -18,22 +18,24 @@ From here on, the Mega Man Legacy Collection will be referred to as the MMLC for
 - These ROMs can be played in NES emulators.
 
 ## Q&A
-### Will this modify MMLC in any way?
+### Why would I want to use this instead of just pirating the original games?
+In the case of the Mega Man ROMs, they aren't identical to the original games. All references to Nintendo have been removed, among other unknown changes. In other words, they're perfect for a ROM collection.
+
+The Rockman ROMs are identical to the original games, however, and a script is included for experimental reasons.
+
+### Will this modify the MMLC in any way?
 Not at all! The MMLC executable will be completely unaffected after the script is run.
 
-### Are the ROMs identical to the original games?
-In the Mega Man ROMs' case, other than all references to Nintendo being removed, the ROMs are identical. As for the Rockman ROMs, they are completely identical to the original games.
-
-### Are the ROMs compatible with ROM hacks?
-Unfortunately, due to the changes I mentioned before, the Mega Man ROMs won't work correctly with ROM hacks. However, I included .ips patches that make the ROMs identical to the original games (with Nintendo references), which in turn makes the games compatible with ROM hacks for them. I would recommend making backup copies of the extracted ROMs before patching them, as there may be other changes to the ROMs that I am unaware of. You can apply the .ips using Lunar IPS https://fusoya.eludevisibility.org/lips/ (**beware the applying the patches directly without making backups will overwrite the original ROMs!**).
+### Are the MMLC ROMs compatible with ROM hacks?
+No, the modified ROMs included with the MMLC are not compatible with ROM hacks. However, I included .ips patches that make the ROMs identical to the original games (with Nintendo references), which in turn makes the games compatible with ROM hacks for them. I would recommend making backup copies of the extracted ROMs before patching them, as there may be other changes to the ROMs that I am unaware of. You can apply the .ips using Lunar IPS https://fusoya.eludevisibility.org/lips/ (**beware the applying the patches directly without making backups will overwrite the original ROMs!**).
 
 As for the Rockman ROMs, they are completely identical to the original games and don't need any patching whatsoever.
 
 ### There's a bug with the scripts/patches.
 Post an issue describing the problem and I'll try to fix it. **Please elaborate.**
 
-### Help! An update released for MMLC and the script doesn't output valid ROMs anymore!
-This is probably due to the offsets for the ROMs shifting. No worries, just post an issue and I'll try to fix it. I'll also add the first and last hex rows for each game later, in case you would like to try and find them.
+### Help! An update released for the MMLC and the script doesn't output valid ROMs anymore!
+This is probably due to the offsets for the ROMs shifting. No worries, just post an issue and I'll try to fix it.
 
 ### ***Bonus:*** What's "data.pie?"
 "data.pie" is an encrypted zip folder containing several assets for the MMLC. If you would like to access it (for example, if you want to use the box art), follow these steps:
