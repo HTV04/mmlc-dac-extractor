@@ -35,7 +35,7 @@ The Rockman ROMs are identical to the original games, however, and a script is i
 Not at all! The MMLC executable will be completely unaffected after the script is run.
 
 ### Are the MMLC ROMs compatible with ROM hacks?
-No, the modified ROMs included with the MMLC are not compatible with ROM hacks. However, I included .ips patches that make the ROMs identical to the original games (with Nintendo references), which in turn makes the games compatible with ROM hacks for them. I would recommend making backup copies of the extracted ROMs before patching them, as there may be other changes to the ROMs that I am unaware of. You can apply the .ips using Lunar IPS https://fusoya.eludevisibility.org/lips/ (**beware the applying the patches directly without making backups will overwrite the original ROMs!**).
+No, the modified ROMs included with the MMLC are not compatible with ROM hacks. However, I included .ips patches that make the ROMs identical to the original games (with Nintendo references), which in turn makes the games compatible with ROM hacks for them. I would recommend making backup copies of the extracted ROMs before patching them, as there may be other changes to the ROMs that I am unaware of. You can apply the .ips using Lunar IPS https://fusoya.eludevisibility.org/lips/ (**beware that applying the patches directly without making backups will overwrite the original ROMs!**).
 
 As for the Rockman ROMs, they are completely identical to the original games and don't need any patching whatsoever.
 
