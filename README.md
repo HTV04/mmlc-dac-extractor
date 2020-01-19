@@ -6,6 +6,14 @@ Based on anpage's script: https://gist.github.com/anpage/b895a34efb0bf1e4a9a4f52
 
 I made a modified version of their script because it was outdated.
 
+Hashes for the ROMs can be found here, courtesy of niemand:
+* Mega Man: https://datomatic.no-intro.org/?page=show_record&s=45&n=2847
+* Mega Man 2: https://datomatic.no-intro.org/?page=show_record&s=45&n=2848
+* Mega Man 3: https://datomatic.no-intro.org/?page=show_record&s=45&n=2849
+* Mega Man 4: https://datomatic.no-intro.org/?page=show_record&s=45&n=2850
+* Mega Man 5: https://datomatic.no-intro.org/?page=show_record&s=45&n=2851
+* Mega Man 6: https://datomatic.no-intro.org/?page=show_record&s=45&n=2852
+
 From here on, the Mega Man Legacy Collection will be referred to as the MMLC for simplicity.
 
 ## How to use
