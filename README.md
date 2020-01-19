@@ -45,5 +45,5 @@ This is probably due to the offsets for the ROMs shifting. No worries, just post
 - Rename the **copied file** to "data.zip." Make sure you have file extensions enabled.
 - Right-click on the zip file, and click on "7-Zip > Extract files..."
 - Click "OK."
-- When prompted, enter this password (**without quotes and period**): "P091uWEdwe4lI6StDNMNlkodPGvJ38bL3HW6t3BCMYdFi83FXKu7k0NsHP8caDKS."
+- When prompted, enter this password: P091uWEdwe4lI6StDNMNlkodPGvJ38bL3HW6t3BCMYdFi83FXKu7k0NsHP8caDKS
 - Enjoy!
