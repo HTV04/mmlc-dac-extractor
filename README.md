@@ -6,13 +6,15 @@ Based on anpage's script: https://gist.github.com/anpage/b895a34efb0bf1e4a9a4f52
 
 I made a modified version of their script because it was outdated.
 
-Hashes for the ROMs can be found here, courtesy of niemand:
-* Mega Man: https://datomatic.no-intro.org/?page=show_record&s=45&n=2847
-* Mega Man 2: https://datomatic.no-intro.org/?page=show_record&s=45&n=2848
-* Mega Man 3: https://datomatic.no-intro.org/?page=show_record&s=45&n=2849
-* Mega Man 4: https://datomatic.no-intro.org/?page=show_record&s=45&n=2850
-* Mega Man 5: https://datomatic.no-intro.org/?page=show_record&s=45&n=2851
-* Mega Man 6: https://datomatic.no-intro.org/?page=show_record&s=45&n=2852
+SHA-256 hashes for the extracted files (without headers):
+* Mega Man: 63E8A6E3A443BC7FC27E939FF59C7B160046392E
+* Mega Man 2: 5D11FE03BDCEE860D3E161C6A0AF4A7A3BBB9834
+* Mega Man 3: 63E309F23EFBF4AE7B084678BADE1FA4D45DDC9C
+* Mega Man 4: ACD38AEBCC130E3011C24834763E76D7C752820D
+* Mega Man 5: 967C2BEAF4BF69F8EB31CB82C741E254E0642F48
+* Mega Man 6: CC3F955CFC1275E374BF6141F65F02E589B33C9C
+
+You can also find these hashes on No-Intro, courtesy of niemand.
 
 From here on, the Mega Man Legacy Collection will be referred to as the MMLC for simplicity.
 
@@ -48,12 +50,12 @@ This is probably due to the offsets for the ROMs shifting. No worries, just post
 ### ***Bonus:*** What's "data.pie?"
 "data.pie" is an encrypted zip folder containing several assets for the MMLC. If you would like to access it (for example, if you want to use the box art), follow these steps:
 
-**(NOTE: The following steps are intended to be done on Windows (10). I cannot guarantee the steps will the same for other operating systems.)**
+**NOTE: The following steps are intended to be done on Windows (10). I cannot guarantee the steps will the same for other operating systems.**
 
 - Download the latest version of 7-Zip here (the built-in extractor for Windows doesn't support passwords): https://www.7-zip.org/
 - After installing 7-Zip, **copy the "data.pie" file in the MMLC directory to a different location**.
 - Rename the **copied file** to "data.zip." Make sure you have file extensions enabled.
-- Right-click on the zip file, and click on "7-Zip > Extract files..."
+- Right-click on the zip file, and click on "7-Zip > Extract to 'data\'"
 - Click "OK."
 - When prompted, enter this password: P091uWEdwe4lI6StDNMNlkodPGvJ38bL3HW6t3BCMYdFi83FXKu7k0NsHP8caDKS
 - Enjoy!
