@@ -1,7 +1,9 @@
 #!/usr/bin/env python
 
-# Mega Man Legacy Collection (Windows) NES ROM Extractor v1.2R
+# Mega Man Legacy Collection NES ROM Extractor v1.2.1R
 # By HTV04
+
+# IMPORTANT: This script is only compatible with v1.1.1.29 of the Windows version of the game.
 
 # Based on anpage's script: https://gist.github.com/anpage/b895a34efb0bf1e4a9a4f52228067fa8
 
@@ -14,7 +16,6 @@ HEADERS = [b'\x4E\x45\x53\x1A\x08\x00\x21\x00\x00\x00\x00\x00\x00\x00\x00\x00',
            b'\x4E\x45\x53\x1A\x20\x00\x40\x00\x00\x00\x00\x00\x00\x00\x00\x00']
 
 # Offsets for each game's ROM in the .exe file
-# v1.1.1.29         OFFSET     SIZE             OFFSET      SIZE
 OFFSETS = [{'PRG': [0x512230, 0x20000], 'CHA': None},
            {'PRG': [0x2F20F0, 0x40000], 'CHA': None},
            {'PRG': [0x332130, 0x40000], 'CHA': [0x372130, 0x20000]},
