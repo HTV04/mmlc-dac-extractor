@@ -6,7 +6,7 @@ Based on anpage's script: https://gist.github.com/anpage/b895a34efb0bf1e4a9a4f52
 
 I made a modified version of their script because it was outdated.
 
-SHA-256 hashes for the extracted files (without headers):
+SHA-1 hashes for the extracted files (without headers):
 * Mega Man: 63E8A6E3A443BC7FC27E939FF59C7B160046392E
 * Mega Man 2: 5D11FE03BDCEE860D3E161C6A0AF4A7A3BBB9834
 * Mega Man 3: 63E309F23EFBF4AE7B084678BADE1FA4D45DDC9C
