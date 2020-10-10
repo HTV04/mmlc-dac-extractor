@@ -1,4 +1,4 @@
-# Mega Man Legacy Collection NES ROM Extractor v1.2.1
+# MMLC Extractor v1.2.1
 Extracts Mega Man 1-6 NES ROMs from the Mega Man Legacy Collection (Windows).
 - Rockman 1-6 ROMs can also be extracted.
 
